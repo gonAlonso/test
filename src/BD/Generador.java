@@ -1,5 +1,5 @@
 package BD;
-public class GeneradorConexion {
+public class Generador {
 
 	enum TIPO {BD}
 	public static Fabricador getFabricador(TIPO tipoFabrica) {

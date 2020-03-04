@@ -6,7 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		Fabricador fabricador = GeneradorConexion.getFabricador(GeneradorConexion.TIPO.BD);
+		Fabricador fabricador = Generador.getFabricador(Generador.TIPO.BD);
 		
 		IConexionBD bd1 = fabricador.getBD(Fabricador.TIPO_MOTOR.POSTGRE);
 		bd1.conectar();
